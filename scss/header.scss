@@ -1,0 +1,110 @@
+.header {
+    position: relative;
+    background: url(../img/cases.svg) no-repeat left 360px top 260px,
+        url(../img/header-bg.jpg) center / cover no-repeat;
+    &__top-fluid {
+        width: 100%;
+        background-color: #222224;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    &__top {
+        margin: 0 auto;
+        max-width: 1280px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        margin: 23px 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__menu-top {
+        display: flex;
+        align-items: center;
+    }
+
+    &__shopcart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__shopcart-link {
+        position: relative;
+    }
+    &__shopcart-link::before {
+        position: absolute;
+        content: '';
+        width: 14px;
+        height: 14px;
+        background: url(../img/ellipseshopcart.svg) no-repeat;
+        top: 0;
+        left: -7px;
+    }
+    &__center {
+        position: relative;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    &__center-inner{ 
+        margin: 290px 0 190px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    &__title {
+        width: 355px;
+        font-family: 'Helvetica Bold';
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 92%;
+        letter-spacing: -0.04em;
+        margin-bottom: 70px;
+    }
+    &__menu-center {
+        a {
+            color:#000;
+        }
+    }
+    &__button {
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        background-color: #fff;
+        bottom: -38px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__button-link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__button-img {}
+}
+.menu {
+    &__list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        width: 330px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list-item {}
+    &__list-link {
+        color: #D0D0D0;
+    }
+    &__list-link:hover {
+        color: #fff;
+    }
+}

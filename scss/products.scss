@@ -1,0 +1,20 @@
+.products {
+    background: #fff;
+    &__inner {
+        margin: 0 auto;
+        max-width: 1280px;
+        padding-bottom: 90px;
+    }
+    &__iphone, &__airpods {
+        margin-top: -200px;
+        position: relative;
+    }
+    &__imac, &__iphoneX {
+        position: relative;
+    }
+    &__link-info {
+        position: absolute;
+        right: 7%;
+        bottom: 5%;
+    }
+}
